@@ -1,0 +1,53 @@
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+main > section {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 3rem 5rem;
+}
+
+aside {
+  display: flex;
+  flex-direction: row;
+}
+
+aside > section {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 3rem 5rem;
+}
+
+label {
+  display: flex;
+  flex-flow: row nowrap;
+  white-space: nowrap;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#chat {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: flex-start;
+}
+
+.person1,.person2 {
+  background-color: blueviolet;
+  color: white;
+  padding: 0.5rem;
+  min-width: 100px;
+  max-width: 300px;
+}
+
+.person2 {
+  background-color: blue;
+  align-self: flex-end;
+}
