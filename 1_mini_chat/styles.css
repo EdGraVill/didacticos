@@ -40,7 +40,7 @@ input {
 }
 
 .person1,.person2 {
-  background-color: blueviolet;
+  background-color: green;
   color: white;
   padding: 0.5rem;
   min-width: 100px;
