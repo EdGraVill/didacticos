@@ -1,3 +1,10 @@
+body {
+  padding: 100px;
+  color: red;
+  font-family: monospace;
+  font-weight: bold;
+}
+
 main {
   display: flex;
   flex-direction: row;
@@ -5,7 +12,7 @@ main {
 
 main > section {
   flex: 1;
-  border: 1px solid #ccc;
+  border: 1px solid red;
   padding: 3rem 5rem;
 }
 
@@ -51,3 +58,17 @@ input {
   background-color: blue;
   align-self: flex-end;
 }
+
+input#person1[type="text"] {
+  border: 1px solid blueviolet;
+}
+
+path {
+  fill: blueviolet;
+}
+
+input ~ button {
+  display: block;
+  background-color: black;
+  color: wheat;
+} 
