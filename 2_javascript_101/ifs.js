@@ -30,6 +30,8 @@ function amIAnAdult() {
 
   if (age >= 18) {
     alert('You are an adult');
+  } else if (age >= 12) {
+    alert('You are a teenager');
   } else {
     alert('You are a child');
   }
